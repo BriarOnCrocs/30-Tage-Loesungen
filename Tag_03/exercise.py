@@ -7,12 +7,12 @@ height = 184.0
 # 3
 complex_number = 1 + 6j
 # 4
-base_triangle = float(input("Please enter the base odt the triangle!: "))
+base_triangle = float(input("Please enter the base of the triangle!: "))
 height_triangle = float(input("Please enter the height of the triangle!: "))
 
 area_of_triangle = 0.5 * base_triangle * height_triangle
 
-print(f"The area of your triangle is, {area_of_triangle:.2f} cm^2!")
+print(f"The area of your triangle is {area_of_triangle:.2f} cm^2!")
 # 5
 side_a = float(input("Please enter side a to calculate the perimeter of your triangle! "))
 side_b = float(input("Please enter side b to calculate the perimeter of your triangle! "))
@@ -60,4 +60,49 @@ ec_distance = sqrt((x1_9 - x2_9)**2 + (y1_9 - y2_9)**2)
 print(f"The Euclidean distance between point (2, 2) and point (6,10) is {ec_distance:.2f}cm.")
 # 10
 print(slope_m8 == slope_m9)
-# 11
+# 11 y is 0 when x is -3
+x_value = float(input("Please enter a value for the term x: "))
+y_value = x_value**2 + 6*x_value + 9
+print(f"The value of y is {y_value:.2f}.")
+# 12
+list_1 = ["python", "dragon"]
+print(f"The length of python is {len(list_1[0])} and the lenth of dragon is {len(list_1[1])}")
+print(len(list_1[0]) != len(list_1[1]))
+# 13
+print("on" in list_1[0] and "on" in list_1[1])
+# 14
+sentence = "I hope this course is not full of jargon."
+print("jargon" in sentence)
+# 15
+print("on" not in list_1[0] and "on" not in list_1[1])
+# 16
+length_python = float(len(list_1[0]))
+str_python = str(length_python)
+print(f"The type of {str_python} is {type(str_python)}.")
+# 17
+input_number = int(input("Enter a number to check if it is even or not "))
+check_number = input_number % 2
+if check_number == 0:
+    print(f"The number {input_number} is even!")
+else:
+    print(f"The number {input_number} is not even!")
+# 18
+floor_div = 7 // 3
+int_number = int(2.7)
+print(floor_div == int_number)
+# 19
+print(type("10") == type(10))
+# 20
+print(int(float("9.8")) == 10)
+# 21
+enter_hours = float(input("Enter hours: "))
+enter_rate_per_hour = float(input("Enter rate per hour: "))
+earning = enter_hours * enter_rate_per_hour
+print(f"Your weekly earning is {earning:.2f}!")
+# 22
+years = float(input("Enter number of years you have lived: "))
+years_in_seconds = (((years * 365) * 24) * 3600)
+print(f"You have lived for {years_in_seconds:.2f} seconds.")
+# 23
+for i in range(1, 6):
+    print(i, 1, i, i**2, i**3)
