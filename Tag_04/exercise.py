@@ -1,5 +1,6 @@
 # Day_4: 30 Days of Python programming
 # 1
+
 first_str = "Thirty "
 second_str = "Days "
 third_str = "Of "
@@ -65,4 +66,60 @@ print("")
 split_company = company.split(" ")
 for word in split_company:
     print(word[0].upper(), end="")
+print("")
 # 20
+print(company.index("C"))
+# 21
+print(company.index("F"))
+# 22
+print(company.rfind("l"))
+# 23
+bc_sentence = "You cannot end a sentence with because because because is a conjunction"
+print(bc_sentence.index("because"))
+print(bc_sentence.find("because"))
+# 24
+print(bc_sentence.rfind("because"))
+# 25
+only_bc = bc_sentence[31:54]
+print(only_bc)
+# 26
+print(bc_sentence.index("because") + 1)
+# 27
+print(only_bc)
+# 28
+print(company.startswith("Coding"))
+# 29
+print(company.endswith("Coding"))
+# 30
+given_string = "   Coding For All      "
+print(given_string.strip(" "))
+# 31
+identify_1 = "30DaysOfPython"
+identify_2 = "thirty_days_of_python"
+print(f"Is the string: {identify_1} a valid variable name --> {identify_1.isidentifier()}")
+print(f"Is the string: {identify_2} a valid variable name --> {identify_2.isidentifier()}")
+# 32
+libaries = ["Django", "Flask", "Bottle", "Pyramid", "Falcon"]
+hash_libaries = " # ".join(libaries)
+print(hash_libaries)
+# 33
+print("I\nam\nenjoying\nthis\nchallenge.\n")
+print("I\njust\nwonder\nwhat\nis\nnext.\n")
+# 34
+print("Name\t\tAge\t\tCountry\t\tCity")
+print("Asabeneh\t250\t\tFinland\t\tHelsinki")
+# 35
+radius = 10
+area = 3.14 * radius ** 2
+string_35 = "The area of a circle with radius {} is {:.2f} meters square.".format(radius, area)
+print(string_35)
+# 36
+number1 = 8
+number2 = 6
+print("{} + {} = {}".format(number1, number2, number1  + number2))
+print("{} - {} = {}".format(number1, number2, number1  - number2))
+print("{} * {} = {}".format(number1, number2, number1  * number2))
+print("{} / {} = {:.2f}".format(number1, number2, number1  / number2))
+print("{} % {} = {}".format(number1, number2, number1  % number2))
+print("{} // {} = {}".format(number1, number2, number1  // number2))
+print("{} ** {} = {}".format(number1, number2, number1  ** number2))
