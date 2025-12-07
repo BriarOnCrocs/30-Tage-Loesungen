@@ -17,8 +17,7 @@ split_sentence = sentence.split(" ")
 tpl_sentence = set(split_sentence)
 print(f"The unique word in: {sentence}\nare {tpl_sentence}")
 
-
+# str – immutable, Text
 # list – mutable, duplicates erlaubt, sortierbar
 # tuple – wie list, aber immutable
 # set – mutable, unsortiert, keine duplicates
-# str – immutable, Text

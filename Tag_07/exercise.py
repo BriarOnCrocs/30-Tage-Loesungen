@@ -17,4 +17,4 @@ try:
     it_companies.remove("NotExisting")
 except KeyError:
     print("Item not found")
-# Other than .remove, .discard method does not raise any errors
+# Other than .remove, .discard method does not raise any errors.

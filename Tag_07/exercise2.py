@@ -15,7 +15,7 @@ d_set = a_set.union(b_set)
 e_set = b_set.union(a_set)
 print(d_set)
 print(e_set)
-# ==> d_set = e_set
+# ===> d_set = e_set
 # 6
 sym_dif = a_set.symmetric_difference(b_set)
 print(sym_dif)
