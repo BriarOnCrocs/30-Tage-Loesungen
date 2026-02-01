@@ -66,7 +66,7 @@ y_value = x_value**2 + 6*x_value + 9
 print(f"The value of y is {y_value:.2f}.")
 # 12
 list_1 = ["python", "dragon"]
-print(f"The length of python is {len(list_1[0])} and the lenth of dragon is {len(list_1[1])}")
+print(f"The length of python is {len(list_1[0])} and the length of dragon is {len(list_1[1])}")
 print(len(list_1[0]) != len(list_1[1]))
 # 13
 print("on" in list_1[0] and "on" in list_1[1])
