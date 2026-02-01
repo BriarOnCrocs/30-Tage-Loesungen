@@ -4,7 +4,7 @@ x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 
 def add_two_numbers(fx, fy):
-    sum_xy = x + y
+    sum_xy = fx + fy
     return sum_xy
 
 print(f"The sum of {x} and {y} is", add_two_numbers(x, y))
