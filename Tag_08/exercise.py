@@ -14,3 +14,16 @@ print(len(student))
 value_skills = student.get("skills")
 print(value_skills, type(value_skills))
 # 6
+student["skills"].extend(["C#", "Rust", "Java"])
+print(student["skills"])
+# 7
+print(student.keys())
+# 8
+print(student.values())
+# 9
+print(student.items())
+# 10
+del student["gender"]
+print(student.keys())
+# 11
+del dog
