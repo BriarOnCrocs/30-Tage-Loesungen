@@ -57,7 +57,7 @@ x2_9 = 6
 slope_m9 = (y2_9-y1_9)/(x2_9-x1_9)
 print(f"The slope of point (2, 2) and point (6,10) is: {slope_m9}.")
 ec_distance = sqrt((x1_9 - x2_9)**2 + (y1_9 - y2_9)**2)
-print(f"The Euclidean distance between point (2, 2) and point (6,10) is {ec_distance:.2f}cm.")
+print(f"The euclidean distance between point (2, 2) and point (6,10) is {ec_distance:.2f}cm.")
 # 10
 print(slope_m8 == slope_m9)
 # 11 y is 0 when x is -3
